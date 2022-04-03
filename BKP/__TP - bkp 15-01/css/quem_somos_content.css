@@ -1,0 +1,395 @@
+main .Content .subContent {
+  margin: auto;
+  line-height: 150%;
+  display: grid;
+  -ms-display: grid;
+  width: 95%;
+  grid-template-columns: repeat(1, 8fr);
+  -ms-grid-columns: 1fr;
+  grid-template-rows: 1;
+  -ms-grid-rows: 1fr;
+  -ms-grid-row-span: 1;
+  grid-gap: 30px;
+}
+
+main .Content .subContent img {
+  max-width: 100%;
+}
+
+main .Content .subContent iframe {
+  max-width: 100%;
+  min-width: 50%;
+  min-height: 550px;
+}
+
+main .Content .subContent .title1 {
+  text-align: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  margin-bottom: 50px;
+  padding-top: 10px;
+}
+
+main .Content .subContent .Missao {
+  grid-column: 1/1;
+  -ms-grid-column: 1;
+  display: grid;
+  -ms-display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -ms-grid-columns: 1fr;
+  grid-template-rows: 2;
+  -ms-grid-rows: 2fr;
+  -ms-grid-row-span: 1;
+  grid-gap: 0px;
+  border-bottom: 2px solid black;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+
+main .Content .subContent .Missao p {
+  padding-top: 8px;
+}
+
+main .Content .subContent .Utentes {
+  -ms-grid-column: 1;
+  grid-column: 1/1;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  margin-top: 0px;
+  padding-top: 20px;
+  grid-gap: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+main .Content .subContent .Utentes p {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  text-align: justify;
+}
+
+main .Content .subContent .title2 {
+  width: 100%;
+  text-align: center;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  grid-row: 3;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  margin-top: 1px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: brown;
+}
+
+main .Content .subContent .title2 .hrsmall {
+  margin-top: auto;
+  margin-top: 30px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  grid-row: 6;
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+main .Content .subContent .depoimentos {
+  margin-top: auto;
+  padding: 0%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  grid-row: 4;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  display: grid;
+  -ms-display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-rows: 1;
+  -ms-grid-rows: 1fr;
+  grid-gap: 10px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 2px;
+  border-bottom: 2px solid black;
+  padding-bottom: 40px;
+  max-width: 100%;
+}
+
+main .Content .subContent .depoimentos .dep1 {
+  grid-column: 1/2;
+  -ms-grid-column: 1;
+  display: grid;
+  -ms-display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -ms-grid-columns: 1fr;
+  grid-template-rows: 2;
+  -ms-grid-rows: 1fr;
+  background-color: #f2eeee;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .Content .subContent .depoimentos .dep1 .depoimento {
+  padding-top: 10px;
+  padding-left: 0;
+  padding-bottom: 10px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+main .Content .subContent .depoimentos .dep1 .autor {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+main .Content .subContent .depoimentos .dep2 {
+  grid-column: 2/2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  display: grid;
+  -ms-display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -ms-grid-columns: 1fr;
+  grid-template-rows: 2;
+  -ms-grid-rows: 1fr;
+  background-color: #f2eeee;
+  border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .Content .subContent .depoimentos .dep2 .depoimento {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+main .Content .subContent .depoimentos .dep2 .autor {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+}
+
+main .Content .subContent .A_Unidade {
+  padding-top: 20px;
+  -ms-grid-column: 1;
+  grid-column: 1/1;
+  grid-row: 6;
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+main .Content .subContent .A_Unidade a {
+  text-decoration: none;
+  color: #4923d1;
+}
+
+main .Content .subContent .A_Unidade img {
+  width: 20px;
+  height: 20px;
+}
+
+main .Content .subContent .A_Unidade .subunidade1 p {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  grid-row: 1;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  text-align: justify;
+}
+
+main .Content .subContent .A_Unidade .subunidade2 {
+  padding-bottom: 20px;
+}
+
+main .Content .subContent .A_Unidade .subunidade2 p {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  grid-row: 2;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  text-align: justify;
+}
+
+main .Content .subContent h1 {
+  color: #260035;
+  font-size: 50px;
+}
+
+main .Content .subContent h2 {
+  font-size: 2.0em;
+  color: brown;
+  text-align: center;
+}
+
+main .Content .subContent h3 {
+  font-size: 1.5em;
+  color: brown;
+  text-align: center;
+}
+
+main .Content .subContent h4 {
+  text-align: center;
+  color: brown;
+}
+
+main .Content .emlinha {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .Content .emlinha .formulario {
+  width: 30%;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .Content .emlinha .formulario form {
+  border-radius: 10px;
+  -webkit-box-shadow: 1.1px 0 11px 4.4px #ddd;
+          box-shadow: 1.1px 0 11px 4.4px #ddd;
+  width: 30%;
+  padding: 10%;
+  border: solid 1px gray;
+  width: 100%;
+}
+
+main .Content .emlinha .formulario form input {
+  width: 100%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: solid 1px gray;
+  padding: 2%;
+  -webkit-box-shadow: 1.1px 0 2.2px 1.1px #ddd;
+          box-shadow: 1.1px 0 2.2px 1.1px #ddd;
+}
+
+main .Content .emlinha .formulario form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: solid 1px gray;
+  padding: 2%;
+  -webkit-box-shadow: 1.1px 0 2.2px 1.1px #ddd;
+          box-shadow: 1.1px 0 2.2px 1.1px #ddd;
+}
+
+main .Content .emlinha .formulario #insucessocontacto {
+  width: 90%;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  display: none;
+}
+
+main .Content .emlinha .formulario #sucessocontacto {
+  width: 90%;
+  color: #7bff00f5;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+  display: none;
+}
+
+main .Content .emlinha .location {
+  margin-top: 45px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main .Content .emlinha .location iframe {
+  width: 100%;
+  -webkit-box-shadow: 1.1px 0 5.5px 4.4px #ddd;
+          box-shadow: 1.1px 0 5.5px 4.4px #ddd;
+  border: solid 1px gray;
+}
+
+@media all and (max-width: 792px) {
+  main .Content {
+    margin: auto;
+    line-height: 130%;
+    display: grid;
+    -ms-display: block;
+    width: 100%;
+  }
+  main .Content .emlinha {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .Content .emlinha .formulario {
+    width: 78%;
+    margin-left: 5px;
+  }
+  main .Content .emlinha .location {
+    padding-left: 10px;
+    width: 95%;
+  }
+}
+
+/* CSS Document */
+/*# sourceMappingURL=quem_somos_content.css.map */

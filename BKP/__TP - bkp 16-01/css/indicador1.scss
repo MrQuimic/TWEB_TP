@@ -1,0 +1,112 @@
+//colors
+$white: #fff;
+$font_black: black;
+$font_dark: #534f4f;
+$shadows_color_alto_approx: #ddd;
+$color_lime_approx: #7bff00f5;
+$blue: #00f;
+$link-color: #4923d1;
+$color_daisy_bush_approx: #4b1786;
+$borders_main: #9f0009;
+$borders_main_secondary: #aa0c0c;
+$bg_color_borders_light-b: hsl(357, 4%, 95%);
+$bg_color_borders_light: hsla(357, 10%, 59%, 0.039);
+$bg_color_borders_light_secondary:hsl(357, 25%, 90%);
+$bg_color_borders_light_secondary-b: hsla(357, 100%, 31%, 0.118);
+$bg_color_borders_light_ternary: hsl(356, 13%, 94%);
+$bg_color_borders_light_ternary-b: #906f7125;
+$bg_color_links-b: hsla(357, 100%, 31%, 0.239);
+$bg_color_links: hsl(357, 33%, 76%);
+$yellow : #e2cc00;
+//fonts
+$font_0: Verdana;
+$font_1: Tahoma;
+$font_2: sans-serif;
+
+//SECTIONS
+$zoom:110px;
+$main-width:100%;
+$Nav:($zoom/100)*50;
+$header-height:($zoom/10)*12;
+$footer-height:($zoom/10)*6;
+
+main{
+
+
+    .Content{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        #left1{
+            visibility: hidden;
+        }
+        #right6{
+            visibility: hidden;
+        }
+        img{
+            width: 5vw;
+            height: 5vw;
+            min-width: 25px;
+            min-height: 1px;
+        }
+        img:hover{
+            //visibility: hidden;
+			background-image: linear-gradient(180deg, $bg_color_borders_light_secondary, $bg_color_links);
+            border-radius: 50%;
+        }
+        #piechart1{
+            margin-top: 25px;
+            width: 1200px; 
+            height: 600px;
+
+        }
+        #piechart2{
+            margin-top: 25px;
+            width: 1200px; 
+            height: 600px;
+        }
+        #piechart3{
+            margin-top: 25px;
+            width: 1200px; 
+            height: 600px;
+        }
+        #columnchart_material1{
+            padding-top: 49px;
+            width: 1200px; 
+            height: 550px;
+        }
+        #columnchart_material{
+            width: 1200px; 
+            padding-top: 49px;
+            height:550px;
+        }
+        #curve_chart1{
+            width: 1200px; 
+            padding-top: 49px;
+            height: 550px;
+        }
+    }
+}
+
+
+@media all and(max-width:($zoom/100)*720) {
+
+main{
+
+    .Content{
+        display: flex; 
+        flex-direction: row; 
+
+        text-align: center;
+        align-items: center;
+        #left1{
+            visibility: hidden;
+        }
+        #right6{
+            visibility: hidden;
+        }
+    }
+}
+}

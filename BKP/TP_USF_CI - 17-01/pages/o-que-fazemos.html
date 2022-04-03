@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">        
+  <head>                   
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">             
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11" />    
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">                             
+    <link href="../css/reset.css" type="text/css" rel="stylesheet" >        
+    <link href="../css/usf_style_main.css" type="text/css" rel="stylesheet" >               
+    <link href="../css/usf_style_content.css" type="text/css" rel="stylesheet" >      
+    <link href="../css/o-que-fazemos-style.css" type="text/css" rel="stylesheet" >                      
+    <title>USF CoimbraCelas: O que fazemos               
+    </title>        
+  </head>        
+  <body>              
+    <!-- Menu -->             
+    <header>           
+      <nav class="top">                     
+        <div>&nbsp;
+        </div>                 
+        <div class="Website-Name-Topo">                                                 
+          <a href="../pages/index.html">                                        
+            <img class="topo-logo" src="../images/logo_main.png"></a> USF CoimbraCelas                                                                       
+        </div>             
+        <label for="toggle">&#9776;                     
+        </label>          
+        <div class="toggle1">&nbsp;
+        </div>                        
+        <input type="checkbox" id="toggle"/>                        
+        <ul class="menu">                                         
+          <li id="imenu1">                                
+            <a href="../pages/index.html">Início</a>            
+          </li>                                   
+          <li id="imenu2">                            
+            <a href="../pages/o-que-fazemos.html">O que fazemos</a>                            
+          </li>                                                                        
+          <li class="dropdown" id="menui3">                   
+            <div class="conteudo-drop1">Indicadores&nbsp;&#x25BE;             
+            </div>                                                                                           
+            <div class="conteudo-drop">                             
+              <div class="conteudo-drop-ind">
+                <a href="../pages/indicador1.html">1</a>
+                <a href="../pages/indicador2.html">2</a>
+                <a href="../pages/indicador3.html">3</a>
+                <a href="../pages/indicador4.html">4</a>
+                <a href="../pages/indicador5.html">5</a>
+                <a href="../pages/indicador6.html">6</a>
+              </div>                                                         
+            </div>                                           
+          </li>                                         
+          <li id="imenu4">                            
+            <a href="../pages/recursos.html">Recursos</a>                            
+          </li>                  
+          <li id="imenu5">                              
+            <a href="../pages/quem-somos.html">Quem somos</a>                              
+          </li>                                   
+          <li id="imenu6">                              
+            <a href="../pages/galeria.html">Galeria</a>                              
+          </li>              
+          <li id="imenu7">              
+            <div class="maisapoio">
+              <a href="../pages/mais-apoio.html">Mais apoio</a>                  
+            </div>            
+          </li>             
+          <li class="maisdropdown" id="maisdropdown">                 
+            <div class="mais">&nbsp;Mais&nbsp;&#x25BE;                
+            </div>                                                                       
+            <div class="mais-drop">                             
+              <div id="menuidrop7">                
+                <a href="../pages/mais-apoio.html">Mais apoio</a>                 
+              </div>                  
+              <div id="menuidrop6">                
+                <a href="../pages/galeria.html">Galeria</a>                    
+              </div>                 
+              <div id="menuidrop5">                                  
+                <a href="../pages/quem-somos.html">Quem somos</a>                                  
+              </div>                    
+              <div id="menuidrop4">                
+                <a href="../pages/recursos.html">Recursos</a>                    
+              </div>                                                                 
+            </div>                                           
+          </li>             
+          <li class="imenulupa">                                  
+            <img src="../images/magnifier-text.svg" class="ilupa">          
+            <div class="procura" id="imenu9">            
+              <form class="procura_entrada">             
+                <input type="text" name="q" id="keywords" class="procura_entrada" placeholder="">            
+              </form>                                  
+            </div>             
+          </li>                                                     
+          <li class="login" id="imenu10">                                  
+            <a href="../pages/login.html" id="log_in">
+              <br>Login </a>
+            <a href="../pages/login.html" id="user_area"></a>              
+          </li>          
+          <div class="footer_mobile"><br><h1>___</h1><br>                                                                                 
+            <span class="aboldspan"><img src="../images/isec1.png">
+              Direitos reservados:</span> Trabalho em contexo académico <br>Disciplina Tweb             
+          </div>             
+          <div id="darkmode-c">            
+            <input type="image" src="../images/night-mode.png" onclick="darkmode()" id="darkmode-b" width="15" height="15">          
+          </div>          
+          <div id="lightmode-c">            
+            <input type="image" src="../images/light-mode.png" onclick="lightmode()" id="lightmode-b" width="20" height="20">          
+          </div>                    
+          <div class="space">
+            <input="hidden" id="goback">
+          </div>                           
+        </ul>                
+        <!------------------------------------------ breadcrumbs  ------------------------------------------>              
+        <ul class="breadcrumb">              
+          <li>
+          <a href="../index.html">...</a>
+          </li>            
+          <li>O que fazemos
+          </li>          
+        </ul>             
+        <button onclick="topFunction()" id="gotopbtn" title="Ir para cima">&uarr;
+        </button>               
+        <!------------------------------------------ breadcrumbs  ------------------------------------------>                                   
+      </nav>             
+    </header>            
+    <!------------------------------------------ Content Start ---------------------------------------------------------->        
+    <main>            
+      <div class="servicos">           
+        <div id="cp1">            
+          <img src="../images/users.svg" onclick="cp1(this);">             <h2></h2>             
+          <button type="button" class="mais_info_button" onclick="cp1(this);">Consulta Programada
+          </button>           
+        </div>           
+        <div id="cp2">            
+          <img src="../images/bolt.svg" onclick="cp2(this);">            <h2></h2>            
+          <button type="button" class="mais_info_button" onclick="cp2(this);">Consulta Aguda
+          </button>          
+        </div>          
+        <div id="cp3">            
+          <img src="../images/home.svg" onclick="cp3(this);">            <h2></h2>            
+          <button type="button" class="mais_info_button" onclick="cp3(this);">Consulta Domicílio
+          </button>          
+        </div>          
+        <div id="cp4">            
+          <img src="../images/id-card-o.svg" onclick="cp4(this);">            <h2></h2>            
+          <button type="button" class="mais_info_button" onclick="cp4(this);">Atividades não presenciais
+          </button>          
+        </div>          
+        <div id="cp5">            
+          <img src="../images/heart.svg" onclick="cp5(this);">            <h2></h2>            
+          <button type="button" class="mais_info_button" onclick="cp5(this);">Cuidados de enfermagem
+          </button>          
+        </div>          
+        <div id="cp6">            
+          <img src="../images/calendario.svg" onclick="cp6(this);">            <h2></h2>            
+          <button type="button" class="mais_info_button" onclick="cp6(this);">Agendar uma Consulta
+            <br> -- falta formulario
+          </button>          
+        </div>         
+      </div>           
+      <div id="mi-base">            
+        <!-----------------------------------------       <h1>Serviços que oferecemos</h1>---------------------------------------------------------->             
+        <hr class="hrsmall" name="opall" id="anchor">         
+        <div class="mais_info1" id="op1">          
+          <img src="../images/users.svg">          
+          <div class="titulo"><h1>
+              <a name="op1" class="anchor">Consulta Programada</a></h1>
+          </div>
+          </br>
+          </br>          
+          <p class="destaque">Consultas de vigilância e promoção de saúde
+          </p>
+          </br>              
+          <p>&nbsp;&nbsp;&nbsp;&nbsp; - Saúde Infantil e Juvenil (dos 0 aos 18 anos);
+          </p>
+          </br>              
+          <p>&nbsp;&nbsp;&nbsp;&nbsp; - Saúde da mulher (planeamento familiar, consulta pré-concepcional, vigilância na gravidez, puerpério e menopausa, rastreios do cancro do colo do útero e da mama)
+          </p>
+          </br>              
+          <p>&nbsp;&nbsp;&nbsp;&nbsp; - Saúde do adulto e do idoso
+          </p>
+          </br>
+          </br>          
+          <p class="destaque">Consulta de seguimento de doenças crónicas 
+          </p>
+          </br>              
+          <p>&nbsp;&nbsp;&nbsp;&nbsp; - Diabetes, Hipertensão Arterial e outros problemas de saúde
+          </p>
+          </br>
+          </br>              
+          <p>Esta é a forma preferencial de utilização da USF.               A sua marcação pode ser feita pela equipa de saúde (médico - enfermeira) ou por iniciativa do utente através do telefone, e-mail ou, presencialmente no Secretariado Clínico.               Pretende-se que o tempo de marcação destas consultas não ultrapasse os dez dias úteis (com exceção para os períodos de férias ou ausência prolongada do médico).               Cada equipa tem períodos preferenciais de agendamento para a vigilância de saúde nas áreas da Saúde Infantil e Juvenil, Saúde da Mulher, Hipertensão e Diabetes.
+          </p>         
+        </div>         
+        <div class="mais_info1" id="op2">          
+          <img src="../images/bolt.svg">          
+          <div class="titulo"><h1>
+              <a name="op2" class="anchor">Consulta Aguda</a></h1>
+          </div>
+          </br>
+          </br>          
+          <p>            Estas consultas destinam-se apenas ao atendimento de situações agudas que não possam aguardar pelo agendamento de consulta médica programada. São marcadas no próprio dia              e a sua duração é de 10-15 minutos. Cada equipa tem um horário diário para atendimento destas situações, que pode consultar no secretariado ou no website da USF.              A marcação pode ser solicitada pelo utente presencialmente ou através do telefone.
+          </p>         
+        </div>         
+        <div class="mais_info1" id="op3">          
+          <img src="../images/home.svg">          
+          <div class="titulo"><h1>
+              <a name="op3" class="anchor">Consulta Domicílio</a></h1>
+          </div>
+          </br>
+          </br>          
+          <p>A consulta domiciliária, médica e/ou de enfermagem, destina-se preferencialmente à vigilância de doentes dependentes,              com mobilidade condicionada ou doenças agudas incapacitantes, que não possam deslocar-se à USF e que residam na sua área de abrangência.              Pode ainda assumir um carácter preventivo, nomeadamente no recém-nascido e na puérpera.
+            </br>            Estas consultas têm marcação prévia obrigatória, mediante avaliação do pedido pela equipa clínica.
+            </br>                         Podem ser solicitadas pelo utente/família/cuidador ou ser da iniciativa da equipa médico-enfermeiro.
+          </p>         
+        </div>         
+        <div class="mais_info1" id="op4">          
+          <img src="../images/id-card-o.svg">          
+          <div class="titulo"><h1>
+              <a name="op4" class="anchor">Atividades não Presenciais</a></h1>
+          </div>
+          </br>
+          </br>          
+          <ul>            
+            <li>- Pedidos de credenciais de transporte
+            </li>            
+            <li>- Pedidos de medicina física e Reabilitação
+            </li>            
+            <li>- Pedidos de renovação de Ventiloterapia Domiciliária
+            </li>            
+            <li>- Relatórios clínicos: Mediante preenchimento de impresso próprio e sujeito a avaliação médica. Poderá ser solicitada a presença do utente em consulta.             
+            </li>            
+            <li>- Renovação de receituário crónico: É facultada a renovação de receituário no intervalo entre consultas previamente agendadas pelo médico. Contudo, apenas será renovada a                  medicação que conste do plano terapêutico crónico previamente instituído pelo médico de família. Todos os pedidos não contemplados no plano                  terapêutico terão que ser justificados, caso a caso.
+            </p>
+            </br>              
+            <p>A medicação crónica deve ser revista e atualizada periodicamente junto do seu médico de família, não sendo possível renovar a prescrição de medicação                  a um utente que tenha abandonado a vigilância regular da sua situação clínica.               
+            </p>          
+            </li>          
+          </ul>         
+        </div>         
+        <div class="mais_info1" id="op5">          
+          <img src="../images/heart.svg">          
+          <div class="titulo"><h1>
+              <a name="op5" class="anchor">Cuidados de Enfermagem</a></h1>
+          </div>
+          </br>
+          </br>          
+          <ul>            
+            <li>
+            <p class="destaque">- Vacinação
+            </p>
+            </br>
+            </br>              
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Faz-se preferencialmente no momento das consultas programadas.                  Pode ser agendada no horário da USF, entre as 8h00 e as 19h30,                  salvaguardando assim os 30 minutos de vigilância pós-vacinal recomendado.
+            </p>
+            <br>                Esta recomendação aplica-se também a certos tratamentos injectáveis.
+            </br>
+            </br>              
+            </p>            
+            </li>            
+            <li class="destaque">- Pensos
+            </li>          
+          </ul>         
+        </div>         
+        <div class="mais_info1" id="op6">          
+          <img src="../images/calendario.svg">          
+          <div class="titulo"><h1>
+              <a name="op6" class="anchor">Agendar uma Consulta</a></h1>
+          </div>
+          </br>                                
+          <div id="form-border">            
+            <form id="consultasfrm" onsubmit="return false">              
+              <p>Aqui pode solicitar a marcação de uma consulta, escolhendo o médico e a altura do dia que prefere.
+              </p>
+              </br>
+              </br>              
+              <!--Nome-->            
+              <div class="emlinha">              
+                <label for="pnome">Primeiro nome: 
+                </label>              
+                <input type="text" id="pnome" name="primeironome" placeholder="O seu primeiro nome..." pattern="[A-Za-z ]{1,32}" required >              
+              </div>              
+              <div class="emlinha">              
+                <label for="unome">Ultimo nome: 
+                </label>              
+                <input type="text" id="ultimonome" name="ultimonome" placeholder="O seu ultimo nome..." pattern="[A-Za-z ]{1,32}" required >            
+              </div>              
+              <!--Genero-->            
+              <div class="emcoluna">                
+                <fieldset>                  
+                  <legend>Genero
+                  </legend>                  
+                  <div class="emlinha">                    
+                    <input type="radio" id="Masculino" name="genero" value="Masculino">                    
+                    <label for="Masculino">Masculino
+                    </label>                  
+                  </div>                    
+                  <div class="emlinha">                    
+                    <input type="radio" id="Feminino" name="genero" value="Feminino" >                    
+                    <label for="Feminino">Feminino
+                    </label>                  
+                  </div>                    
+                  <div class="emlinha">                    
+                    <input type="radio" id="outro" name="genero" value="outro" >                    
+                    <label for="outro">Outro
+                    </label>                  
+                  </div>              
+                </fieldset>            
+              </div>              
+              <!--Idade-->            
+              <div class="emlinha">              
+                <label for="idade">Idade:
+                </label>              
+                <input type="number" id="idade" value="idade" min="18" max="120" required>            
+              </div>              
+              <!--CC-->              
+              <div class="emlinha">              
+                <label for="cc">Cartão de identificação: 
+                </label>              
+                <input type="number" id="cc" value="cc" size="12" required>            
+              </div>              
+              <!--Email-->              
+              <div class="emcoluna">              
+                <label for="email">Email: 
+                </label>              
+                <input type="email" id="email" name="email" placeholder="O seu email..." required>            
+              </div>              
+              <!--Morada-->                
+              <div class="emcoluna">                 
+                <label for="morada">Morada: 
+                </label>              
+                <input type="text" id="morada" name="morada" placeholder="A sua morada..." required>                 
+              </div>                    
+              <!--Escolha do médico-->             
+              <div class="emcoluna">              
+                <label for="medicos">Escolha o seu médico: 
+                </label>              
+                <div id="medicosList">                
+                  <select id="medicos" name="medicos" required>                  
+                    <option value="Dr Graça Abreu"> Dr Graça Abreu
+                    </option>                  
+                    <option value="Dr Maria Leonor Magalhães">Dr Maria Leonor Magalhães
+                    </option>                  
+                    <option value="Dr Pedro Fonseca">Dr Pedro Fonseca
+                    </option>                  
+                    <option value="Dr Manuel de Albuquerque">Dr Manuel de Albuquerque
+                    </option>                  
+                    <option value="Dr João Abreu">Dr João Abreu
+                    </option>                
+                  </select>              
+                </div>            
+              </div>              
+              <!--Preferencia de horário-->            
+              <div class="emcoluna" style="margin-bottom: 5px;">              
+                <label for="periodoDoDia" style="margin-bottom: 5px;">Escolha a sua preferencia de horário: 
+                </label>              
+                <div class="emlinha">                
+                  <input type="checkbox" id="manha" name="horario" value="manha">                
+                  <label for="manha">Periodo da Manha: 08h00-13h00 
+                  </label>              
+                </div>              
+                <div class="emlinha">                
+                  <input type="checkbox" id="tarde" name="horario" value="tarde">                
+                  <label for="tarde">Periodo da tarde: 14h00-18h00 
+                  </label>              
+                </div>            
+              </div>              
+              <!--Comentários-->            
+              <div id="comentarios">              
+                <label for="subject">Comentários
+                </label>              
+<textarea id="comentario" name="comentario" placeholder="Escreva a sua mensagem..." ></textarea>              
+                <input type="submit" value="Sign in" id="consultasbtn">            
+              </div>            
+            </form>            
+            <div id="insucessoconsulta">              
+              <p>Pedido de consulta Falhou! 
+              </p>              
+              <p>Tente novamente.
+              </p>            
+            </div>            
+            <div id="sucessoconsulta">              
+              <p>Pedido de consulta efetuado com sucesso! 
+              </p>              
+              <p>Aguarde o contacto de confirmação.
+              </p>              
+              <p>                
+                <input type="button" value="Ok" id="Okbtn" onclick="location.reload()">                  
+              </p>              
+            </div>          
+          </div>         
+        </div>
+      </div> 
+    </main>             
+    <!------------------------------------------ Content  ---------------------------------------------------------->       
+    <footer>        
+      <div>            
+        <span class="aboldspan"><img src="../images/isec1.png">
+          Direitos reservados:</span> Trabalho em contexo académico - Disciplina Tweb 
+      </div>                      
+    </footer>   
+    <div>&nbsp;</div>        
+    <script src="../scripts/main_script.js" type="text/javascript"></script> 
+    <script src="../scripts/consultas-form.js" type="text/javascript"></script>              
+    <script>          
+      window.addEventListener("DOMContentLoaded", function(e) {
+      var myHilitor2 = new Hilitor("Content");
+      myHilitor2.setMatchType("left");
+      document.getElementById("keywords").addEventListener("keyup", function(e) {
+        myHilitor2.apply(this.value);
+        }, false);
+      }, false);  
+    </script>       
+  </body>
+</html>
